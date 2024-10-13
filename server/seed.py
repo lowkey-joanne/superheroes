@@ -23,7 +23,7 @@ if __name__ == '__main__':
         ]
 
         db.session.add_all(powers)
-        db.session.commit()  # Commit after adding powers
+        db.session.commit()  # Commit after adding power
         print(f"Added {len(powers)} powers.")
 
         print("Seeding heroes...")
